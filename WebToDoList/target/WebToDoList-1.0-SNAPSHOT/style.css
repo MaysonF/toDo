@@ -1,0 +1,75 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: orangered;
+    transform: scale(0.95);
+}
+
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+input[type=submit]{
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover{
+    background-color: royalblue;
+    transform: scale(0.95);
+}
+
+.delete-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
